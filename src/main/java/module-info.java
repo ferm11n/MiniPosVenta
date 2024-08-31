@@ -10,6 +10,7 @@ module com.ferm11n.ejfx {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.sql;
 
     opens com.ferm11n.ejfx to javafx.fxml;
     exports com.ferm11n.ejfx;
